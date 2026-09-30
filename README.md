@@ -1,15 +1,17 @@
-CIP-B103 Lab [#] – Windows Memory Forensics (Volatility)
+# CIP-B103 Lab [#] – Windows Memory Forensics (Volatility)
 
-Student: Fuseini Imoru Kantuogaa
-Registration: C11/26/DFIT/17291
-Course: CIP-B103
-Lab: Lab [#] – Memory Forensics & Data Exfiltration Analysis
-Date: 14–16 September 2026
-Environment: Kali Linux
+**Student:** Fuseini Imoru Kantuogaa **Course:** CIP-B103 **Lab:** Lab [#] – Memory Forensics & Data Exfiltration Analysis
 
 ## Overview
 
-This lab demonstrates a memory forensics workflow: installing Volatility 2 and 3, acquiring a Windows 7 memory image, identifying the operating system and profile, extracting registry, network, process and console artifacts, carving browser evidence, identifying the USB device used, and recovering and cracking local account password hashes. The goal was to determine whether a sensitive file (`secret_file.docx`) was obtained and copied to removable media.
+This lab demonstrates a **memory forensics** workflow: installing Volatility 2 and 3, acquiring a Windows 7 memory image, identifying the operating system and profile, extracting registry, network, process and console artifacts, carving browser evidence, identifying the USB device used, and recovering and cracking local account password hashes. The goal was to determine whether a sensitive file (`secret_file.docx`) was obtained and copied to removable media.
+
+## Case Folder Structure
+
+```bash
+cd ~/volatility3        # Volatility 3 and the memory image
+cd ~/volatility         # Volatility 2 working directory and output files
+```
 
 ## 1. Tool Setup
 
